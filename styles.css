@@ -71,6 +71,8 @@
 		background-image: url('./imgs/header-bg.jpg');
 		height: 150vh;
 		width: 100%;
+		background-size: cover;
+		background-position: 25% 25%;
 	}
 
 	.main-header-content {
