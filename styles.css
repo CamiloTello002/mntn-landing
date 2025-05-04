@@ -67,6 +67,10 @@
 		gap: 1rem;
 	}
 
+	.main-header {
+		background-image: url('./imgs/header-bg.jpg');
+	}
+
 	.main-header-content {
 		max-width: 1750px;
 		margin-inline: auto;
