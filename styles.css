@@ -66,6 +66,10 @@
 		display: flex;
 		gap: 1rem;
 	}
+
+	.main-header-content {
+		max-width: 1750px;
+	}
 }
 
 @layer utils {
