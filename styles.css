@@ -31,7 +31,13 @@
 
 }
 
-@layer theme {}
+@layer theme {
+	:root {
+		--bg-color: #OB1D26;
+		--accent-color: #FBD784;
+		--foreground-color: #FFF;
+	}
+}
 
 @layer base {}
 
