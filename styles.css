@@ -56,6 +56,10 @@
 		align-items: center;
 		padding-block: 4rem;
 	}
+
+	.brand-logo {
+		font-size: 2rem;
+	}
 }
 
 @layer utils {
