@@ -69,6 +69,8 @@
 
 	.main-header {
 		background-image: url('./imgs/header-bg.jpg');
+		height: 150vh;
+		width: 100%;
 	}
 
 	.main-header-content {
