@@ -1,7 +1,11 @@
-.font-serif {
-	font-family: "PT Serif", Georgia, 'Times New Roman', Times, serif;
-}
+@layer utils;
 
-.font-sans {
-	font-family: "Poppins", Arial, Helvetica, sans-serif;
+@layer utils {
+	.font-serif {
+		font-family: "PT Serif", Georgia, 'Times New Roman', Times, serif;
+	}
+
+	.font-sans {
+		font-family: "Poppins", Arial, Helvetica, sans-serif;
+	}
 }
