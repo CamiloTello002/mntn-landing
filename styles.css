@@ -1,4 +1,10 @@
-@layer utils;
+@layer reset, base, theme, utils;
+
+@layer reset {}
+
+@layer theme {}
+
+@layer base {}
 
 @layer utils {
 	.font-serif {
