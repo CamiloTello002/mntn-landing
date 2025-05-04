@@ -39,7 +39,12 @@
 	}
 }
 
-@layer base {}
+@layer base {
+	body {
+		margin: 0;
+		font-size: 1.125rem;
+	}
+}
 
 @layer utils {
 	.font-serif {
