@@ -118,6 +118,11 @@
 		font-size: 5.5rem;
 		text-wrap: balance;
 		line-height: 100px;
+
+		@media (width <=1200px) {
+			font-size: 4rem;
+			line-height: normal;
+		}
 	}
 
 	.scroll-down {
