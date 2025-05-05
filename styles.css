@@ -161,6 +161,7 @@
 	.header-fade-out {
 		height: 50vh;
 		background: linear-gradient(to bottom, transparent, var(--bg-color) 75%);
+		margin-block-end: -25vh;
 	}
 }
 
