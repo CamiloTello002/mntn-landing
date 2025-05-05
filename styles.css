@@ -174,8 +174,13 @@
 	}
 
 	.section-text-wrapper {
+		position: relative;
+
 		&::before {
 			content: attr(data-number);
+			position: absolute;
+			top: 0;
+			left: 0;
 		}
 	}
 }
