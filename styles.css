@@ -112,6 +112,10 @@
 		max-width: 1000px;
 		margin-inline: auto;
 		margin-block-start: 10vh;
+
+		@media (width <=800px) {
+			margin-block-start: 0;
+		}
 	}
 
 	.main-header-title {
