@@ -248,6 +248,10 @@
 		aspect-ratio: 7 / 9;
 		object-fit: cover;
 		border-radius: 1rem;
+
+		@media (width <=1450px) {
+			max-width: 400px;
+		}
 	}
 
 }
