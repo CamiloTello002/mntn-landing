@@ -283,6 +283,12 @@
 		}
 	}
 
+	@media (width <=800px) {
+		.section-reversed-order {
+			flex-direction: column-reverse;
+		}
+	}
+
 }
 
 /*Reusable components*/
