@@ -169,6 +169,7 @@
 @layer components {
 	.content-container {
 		max-width: 95rem;
+		margin-inline: auto;
 	}
 
 	.section {
