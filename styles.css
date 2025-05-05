@@ -208,6 +208,10 @@
 		line-height: 1.75;
 	}
 
+	.section-img {
+		aspect-ratio: 7 / 9;
+	}
+
 }
 
 /*Reusable components*/
