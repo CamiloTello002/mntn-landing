@@ -48,6 +48,7 @@
 	}
 }
 
+/*Header*/
 @layer components {
 	.main-header-top-bar {
 		display: grid;
@@ -115,6 +116,21 @@
 	@keyframes bounce {
 		100% {
 			translate: 0 25%;
+		}
+	}
+}
+
+/*Reusable components*/
+@layer components {
+	.section-tagline {
+		display: flex;
+		text-transform: uppercase;
+		gap: 1rem;
+		align-items: center;
+		color: var(--accent-color);
+
+		&::before {
+			content: "";
 		}
 	}
 }
