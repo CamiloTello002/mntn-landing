@@ -64,6 +64,10 @@
 		@media (width <=1280px) {
 			grid-template-columns: 1fr auto;
 		}
+
+		@media (width <=500px) {
+			align-items: flex-start;
+		}
 	}
 
 	.brand-logo {
@@ -73,7 +77,12 @@
 
 	.main-header-nav {
 		display: flex;
+		flex-direction: row;
 		gap: 1rem;
+
+		@media (width <=500px) {
+			flex-direction: column;
+		}
 	}
 
 	.main-header {
