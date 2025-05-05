@@ -68,6 +68,10 @@
 		@media (width <=500px) {
 			align-items: flex-start;
 		}
+
+		@media (width <=800px) {
+			padding-block-start: 2rem;
+		}
 	}
 
 	.brand-logo {
