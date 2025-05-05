@@ -97,6 +97,12 @@
 		line-height: 100px;
 	}
 
+	.scroll-down {
+		display: flex;
+		gap: 0.5rem;
+		align-items: flex-start;
+	}
+
 	.scroll-down svg {
 		width: 16px;
 	}
