@@ -291,6 +291,14 @@
 
 }
 
+/*Footer*/
+@layer components {
+	.footer {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
 /*Reusable components*/
 @layer components {
 	.section-tagline {
