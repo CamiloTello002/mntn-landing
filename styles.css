@@ -167,6 +167,10 @@
 
 /*Main content*/
 @layer components {
+	.content-container {
+		max-width: 95rem;
+	}
+
 	.section {
 		display: flex;
 		align-items: center;
