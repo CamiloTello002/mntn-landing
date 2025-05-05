@@ -45,6 +45,10 @@
 		font-size: 1.125rem;
 		color: var(--foreground-color);
 		background-color: var(--bg-color);
+
+		@media (width <=800px) {
+			font-size: 1rem;
+		}
 	}
 }
 
