@@ -82,6 +82,12 @@
 		padding-inline: 2rem;
 	}
 
+	.main-header-title-container {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+	}
+
 	.scroll-down svg {
 		width: 16px;
 	}
