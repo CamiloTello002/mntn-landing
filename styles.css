@@ -232,6 +232,10 @@
 		flex-direction: column;
 		gap: 1.33rem;
 		margin-inline-start: 8rem;
+
+		@media (width <=1200px) {
+			margin-inline-start: 0;
+		}
 	}
 
 	.section-title {
