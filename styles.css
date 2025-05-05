@@ -91,6 +91,10 @@
 		margin-block-start: 10vh;
 	}
 
+	.main-header-title {
+		font-size: 5.5rem;
+	}
+
 	.scroll-down svg {
 		width: 16px;
 	}
