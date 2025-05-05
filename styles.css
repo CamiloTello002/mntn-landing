@@ -295,7 +295,13 @@
 @layer components {
 	.footer {
 		display: flex;
+		flex-direction: row;
 		justify-content: space-between;
+
+		@media (width <=1100px) {
+			flex-direction: column-reverse;
+			gap: 3rem;
+		}
 	}
 
 	.footer-brand-info {
