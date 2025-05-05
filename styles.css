@@ -175,6 +175,10 @@
 
 	.section-text-wrapper {
 		position: relative;
+		/*TODO: delete this property later so that you can see what happens*/
+		align-self: stretch;
+		display: flex;
+		align-items: center;
 
 		&::before {
 			content: attr(data-number);
@@ -201,6 +205,7 @@
 
 	.section-text {
 		text-wrap: pretty;
+		line-height: 1.75;
 	}
 
 }
