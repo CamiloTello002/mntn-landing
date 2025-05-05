@@ -224,6 +224,11 @@
 			font-size: 14rem;
 			font-weight: 900;
 			opacity: .1;
+
+			@media (width <=1200px) {
+				font-size: 8rem;
+				line-height: 0;
+			}
 		}
 	}
 
