@@ -309,6 +309,10 @@
 		text-wrap: pretty;
 		flex-grow: 1;
 	}
+
+	.copyright {
+		opacity: .5;
+	}
 }
 
 /*Reusable components*/
