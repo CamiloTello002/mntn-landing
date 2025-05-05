@@ -73,6 +73,7 @@
 		width: 100%;
 		background-size: cover;
 		background-position: 25% 25%;
+		margin-block-end: -50vh;
 	}
 
 	.main-header-content {
