@@ -165,6 +165,15 @@
 	}
 }
 
+/*Main content*/
+@layer components {
+	.section {
+		display: flex;
+		align-items: center;
+		gap: 8rem;
+	}
+}
+
 /*Reusable components*/
 @layer components {
 	.section-tagline {
