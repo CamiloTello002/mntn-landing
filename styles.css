@@ -157,6 +157,11 @@
 			translate: 0 25%;
 		}
 	}
+
+	.header-fade-out {
+		height: 50vh;
+		background: linear-gradient(to bottom, transparent, var(--bg-color) 75%);
+	}
 }
 
 /*Reusable components*/
