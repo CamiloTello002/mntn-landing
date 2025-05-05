@@ -106,6 +106,10 @@
 	.scroll-down svg {
 		width: 16px;
 		animation: bounce 1s infinite alternate;
+
+		@media (prefers-reduced-motion: reduce) {
+			animation: none;
+		}
 	}
 
 	@keyframes bounce {
