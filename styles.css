@@ -313,6 +313,26 @@
 	.copyright {
 		opacity: .5;
 	}
+
+	.footer-links {
+		display: flex;
+		gap: 11rem;
+	}
+
+	.footer-link-section {
+		display: flex;
+		flex-direction: column;
+		gap: 1.5rem;
+	}
+
+	.footer-link-title {
+		font-size: 1.5rem;
+		color: var(--accent-color);
+	}
+
+	.footer-nav {
+		display: contents;
+	}
 }
 
 /*Reusable components*/
