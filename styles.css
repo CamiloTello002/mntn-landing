@@ -173,6 +173,7 @@
 		padding-inline: 2rem;
 		margin-block-end: 6.75rem;
 		display: flex;
+		gap: 11rem;
 		flex-direction: column;
 	}
 
