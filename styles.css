@@ -101,11 +101,17 @@
 		display: flex;
 		gap: 0.5rem;
 		align-items: flex-start;
-		animation: bounce 1s infinite alternate;
 	}
 
 	.scroll-down svg {
 		width: 16px;
+		animation: bounce 1s infinite alternate;
+	}
+
+	@keyframes bounce {
+		100% {
+			translate: 0 25%;
+		}
 	}
 }
 
