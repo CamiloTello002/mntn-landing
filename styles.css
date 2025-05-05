@@ -60,6 +60,10 @@
 		gap: 1rem;
 		align-items: center;
 		padding-block: 4rem;
+
+		@media (width <=1280px) {
+			grid-template-columns: 1fr auto;
+		}
 	}
 
 	.brand-logo {
