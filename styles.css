@@ -189,6 +189,17 @@
 		svg {
 			width: 16px;
 			rotate: -90deg;
+			animation: bounce-horizontal 1s infinite alternate;
+
+			@media (prefers-reduced-motion: reduce) {
+				animation: none;
+			}
+		}
+	}
+
+	@keyframes bounce-horizontal {
+		100% {
+			translate: 25%;
 		}
 	}
 
