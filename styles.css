@@ -297,6 +297,12 @@
 		display: flex;
 		justify-content: space-between;
 	}
+
+	.footer-brand-info {
+		display: flex;
+		flex-direction: column;
+		gap: 1.5rem;
+	}
 }
 
 /*Reusable components*/
