@@ -180,6 +180,18 @@
 		display: contents;
 	}
 
+	.read-more-link {
+		display: flex;
+		gap: .5rem;
+		align-items: center;
+		color: var(--accent-color);
+
+		svg {
+			width: 16px;
+			rotate: -90deg;
+		}
+	}
+
 	.section {
 		display: flex;
 		align-items: center;
