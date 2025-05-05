@@ -176,6 +176,12 @@
 			height: 2px;
 			background-color: var(--accent-color);
 		}
+
+		@media (width <=425px) {
+			&::before {
+				display: none;
+			}
+		}
 	}
 }
 
