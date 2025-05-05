@@ -218,7 +218,6 @@
 
 	.section-text-wrapper {
 		position: relative;
-		/*TODO: delete this property later so that you can see what happens*/
 		align-self: stretch;
 		display: flex;
 		align-items: center;
@@ -231,6 +230,7 @@
 			font-size: 14rem;
 			font-weight: 900;
 			opacity: .1;
+			pointer-events: none;
 
 			@media (width <=1200px) {
 				font-size: 8rem;
