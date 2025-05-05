@@ -172,6 +172,12 @@
 		align-items: center;
 		gap: 8rem;
 	}
+
+	.section-text-wrapper {
+		&::before {
+			content: attr(data-number);
+		}
+	}
 }
 
 /*Reusable components*/
