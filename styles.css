@@ -123,6 +123,10 @@
 			font-size: 4rem;
 			line-height: normal;
 		}
+
+		@media (width <=800px) {
+			font-size: 3.25rem;
+		}
 	}
 
 	.scroll-down {
