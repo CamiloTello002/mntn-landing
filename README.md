@@ -1,48 +1,18 @@
-<svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-        @keyframes hi  {
-            0% { transform: rotate( 0.0deg) }
-           10% { transform: rotate(14.0deg) }
-           20% { transform: rotate(-8.0deg) }
-           30% { transform: rotate(14.0deg) }
-           40% { transform: rotate(-4.0deg) }
-           50% { transform: rotate(10.0deg) }
-           60% { transform: rotate( 0.0deg) }
-          100% { transform: rotate( 0.0deg) }
-        }
+# 🏔️ MNTN – Hiking Landing Page
+A visually polished, fully responsive hiking-themed landing page built with semantic HTML and modern, layered CSS. Designed to showcase aesthetic precision, responsive design, and scalable frontend structure.
 
-        .container {
-          background-color: black;
+## 🌐 Live Preview
+[🔗 View Live Site](https://mntn-site-landing.netlify.app/)
 
-          width: 100%;
-          height: 300px;
+## ✨ Why This Project Matters
+I built this landing page to demonstrate mastery of responsive layout, custom styling without frameworks, and clean semantic HTML structure—critical frontend skills that are easily overlooked in templated or framework-heavy projects.
 
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          color: white;
+It serves as a focused example of:
 
-          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-        }
+- Visual hierarchy and content flow
 
-        .hi {
-          animation: hi 1.5s linear -0.5s infinite;
-          display: inline-block;
-          transform-origin: 70% 70%;
-        }
+- Mobile-first responsive strategies
 
-        @media (prefers-reduced-motion) {
-          .hi {
-            animation: none;
-          }
-        }
-      </style>
+- Custom animations and interactive elements (like subtle bounce on scroll indicators)
 
-      <div class="container">
-        <h1>Hi there, my name is Nikola <div class="hi">👋</div></h1>
-      </div>
-    </div>
-  </foreignObject>
-</svg>
+- Accessible font loading and typography pairing
