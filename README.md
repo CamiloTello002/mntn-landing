@@ -16,3 +16,27 @@ It serves as a focused example of:
 - Custom animations and interactive elements (like subtle bounce on scroll indicators)
 
 - Accessible font loading and typography pairing
+
+## 📁 Features
+
+- 💡 CSS @layer usage for organized and scalable styling
+
+- 🔄 Fully responsive layout down to small screens
+
+- ✍️ Custom typography via Google Fonts (Poppins + PT Serif)
+
+- 🎯 Semantic, accessible HTML5 structure
+
+- 💻 No JS required – pure HTML/CSS interactivity
+
+## 🧱 Tech Stack
+- HTML5
+- Modern CSS (Custom Properties, @layer, media queries, animations)
+- No frameworks, no dependencies – built from scratch
+
+## 📦 How to Run Locally
+```
+git clone https://github.com/CamiloTello002/mntn-landing.git
+cd mntn-landing
+# open index.html on your browser
+```
